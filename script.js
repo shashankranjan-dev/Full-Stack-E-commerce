@@ -120,7 +120,7 @@ function userLogin() {
       .then((data) => {
         console.log("Login Data:", data);
         if (data.statusCode == 200) {
-          window.location.href = "home/home.html";
+          window.location.href = "/Full-Stack-E-commerce/home/home.html";
         }
       })
       .catch((error) => {
