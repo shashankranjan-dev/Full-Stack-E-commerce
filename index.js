@@ -22,9 +22,9 @@ mongoose.connect(uri, { useNewUrlParser: true },
 
 // const apiData = require("./data.json");
 
-// app.get("/", (req, res) => {
-//   res.send("<h1>Its an amazing website</h1>");
-// });
+app.get("/", (req, res) => {
+  res.send("<h1>Welcome to Backend of E-commerce.</h1>");
+});
 
 // app.get("/home", (req, res) => {
 //   res.send(apiData);
